@@ -1,0 +1,61 @@
+
+.promocoes{
+    position: absolute;
+    margin-left: 50px;
+    bottom: 0;
+    margin-bottom: 50px;
+}
+
+.promocoes-bt{
+    width: 190px;
+    height: 100px;
+    color: #e4e4e4;
+    font-weight: 600;
+    border:none;
+    box-shadow: 1px 2px 10px #7a7a7a;
+    margin-left: 15px;
+
+}
+
+
+.promocoes-bt:nth-child(1){
+    background-color: rgb(51, 153, 255);
+}
+
+.promocoes-bt:nth-child(2){
+    background-color: blueviolet;
+}
+
+.promocoes-bt:nth-child(3){
+    background-color: rgb(51, 153, 255);
+}
+
+.promocoes-bt:nth-child(4){
+    background-color: blueviolet;
+}
+
+/*HOVER'S*/
+
+.promocoes-bt:nth-child(1):hover{
+    background-color: rgb(41, 130, 219);
+    transition: ease 0.1s;
+    transform:translate(0) scale(1.1);
+}
+
+.promocoes-bt:nth-child(2):hover{
+    background-color: rgb(110, 32, 182);
+    transition: ease 0.1s;
+    transform:translate(0) scale(1.1);
+}
+
+.promocoes-bt:nth-child(3):hover{
+    background-color: rgb(41, 130, 219);
+    transition: ease 0.1s;
+    transform:translate(0) scale(1.1);
+}
+
+.promocoes-bt:nth-child(4):hover{
+    background-color: rgb(110, 32, 182);
+    transition: ease 0.1s;
+    transform:translate(0) scale(1.1);
+}

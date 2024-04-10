@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/btdesconto.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Restaurante fubanga</h1>
+
+    <div class="orderHere">
+      <p>Peça aqui!</p>
+
+      <td>
+        <label for="#" id="pedido"></label>
+        <label for="#" id="preco"></label>
+        <p id="resultado"></p>
+      </td>
+      
+      
+    </div>
+
+  <div class="menu">
+    <h3>Pratos Principais</h3>
+    <tr> 
+    
+      <button onclick="insert('Big burguer max'), code('20,00')" >
+      <i class=" fa-solid fa-burger" id="code"> Big burguer max</i>
+        
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci soluta nihil earum velit itaque repellat quaerat reiciendis</p>
+         <span>R$20,00</span>
+      </button>
+
+      <button onclick="insert('Pizza Media ')">
+        <i class="fa-solid fa-pizza-slice" id="code"> Pizza Media</i> 
+                
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci soluta nihil earum velit itaque repellat quaerat reiciendis</p>
+           <span>R$35,00</span>
+      </button>
+
+      <button onclick="insert(' Salada ')">
+        <i class="fa-solid fa-carrot" id="code"> Salada</i>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci soluta nihil earum velit itaque repellat quaerat reiciendis</p>
+        <span>R$17,00</span>
+      </button>
+      
+     
+  
+<tr>  
+  <h3>Sobremesas</h3>   
+  <button onclick="insert('Casquinha de sorvete ')">
+    <i class="fa-solid fa-ice-cream" id="code"> Sorvete</i>  
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci soluta nihil earum velit itaque repellat quaerat reiciendis</p>
+     <span>R$06,50</span>
+  </button>
+ 
+ 
+  <button onclick="insert('Torta de Maçã')">
+  <i class="fa-solid fa-apple-whole" id="code"> Torta de Maca</i>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci soluta nihil earum velit itaque repellat quaerat reiciendis</p>
+  <span>R$13,00</span>
+</button>
+
+<button onclick="insert('Waffle')">
+  <i class="fa-solid fa-stroopwafel" id="code"> Waffle</i>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci soluta nihil earum velit itaque repellat quaerat reiciendis</p>
+  <span>R$16,50</span>
+</button>
+
+</tr>
+  </div>
+
+  <div class="promocoes">
+
+    <button class="promocoes-bt" onclick="cupom1()"> Cupom 10%   </button>
+    <button class="promocoes-bt" onclick="cupom3()"> Cupom 30%   </button>
+    <button class="promocoes-bt" onclick="cupom5()"> Cupom 50%  </button>
+    <button class="promocoes-bt" onclick="cupom7()"> Cupom 70%   </button>
+
+  </div>
+
+  <button onclick="calcular()">Finalizar compra</button>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

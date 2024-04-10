@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #e4e4e4;
+}
+
+h1,p{
+    text-align: center;
+    padding: 20px;
+}
+.menu{
+    background-color: #7c7c7c;
+    width: 800px;
+    margin-left: 60px;
+    margin-right: auto;
+    text-align: center;
+   padding: 20px;
+   border-radius: 20px;
+
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin-top: 100px;
+
+}
+
+button{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.menu button:hover{
+    background-color: #c0c0c0;
+    transition: ease 0.1s;
+}
+
+h3{
+    padding: 40px;
+}
+
+
+
+/*PEÇA AQUI*/
+
+
+.orderHere{
+    width: 450px;
+    height: 800px;
+    border-radius: 20px;
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 190px;
+    margin-bottom: 41px;
+    margin-top: 15px;
+    position: relative;
+    top:0;
+    right: 0;
+}
+
+
+
+.orderHere label{
+  width: 150px;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 15px;
+
+}
+
